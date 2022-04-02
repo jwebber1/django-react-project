@@ -38,9 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api',
-    'rs3',
-    'osrs',
+    'api.apps.ApiConfig',
+    'frontend.apps.FrontendConfig',
     'rest_framework'
 ]
 

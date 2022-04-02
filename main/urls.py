@@ -19,7 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
-    path('osrs/', include('osrs.urls')),
-    path('rs3/', include('rs3.urls'))
-    #path('', include('home.urls'))     Consider creating a \home or \root page
+    path('', include('frontend.urls'))
 ]
