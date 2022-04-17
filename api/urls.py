@@ -6,5 +6,4 @@ urlpatterns = [
     path('items', ItemView.as_view()),
     path('npc', NpcView.as_view()),
     path('character', CharacterView.as_view()),
-    path('skills', SkillsView.as_view()),
 ]

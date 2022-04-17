@@ -6,5 +6,4 @@ urlpatterns = [
     path('beasts', index),
     path('character', index),
     path('items', index),
-    path('skills', index),
 ]

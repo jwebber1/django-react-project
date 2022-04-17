@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import BeastsPage from "./BeastsPage";
 import CharacterPage from "./CharacterPage";
 import ItemsPage from "./ItemsPage";
-import SkillsPage from "./SkillsPage";
 import { BrowserRouter as Router, Switch, Route, Link, Redirect,} from "react-router-dom";
 
 export default class HomePage extends Component {
@@ -18,7 +17,6 @@ export default class HomePage extends Component {
           <Route path='/beasts' component={BeastsPage} />
           <Route path='/character' component={CharacterPage} />
           <Route path='/items' component={ItemsPage} />
-          <Route path='/skills' component={SkillsPage} />
         </Switch>
       </Router>
     );
